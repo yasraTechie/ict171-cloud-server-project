@@ -1,10 +1,31 @@
 # DNS Configuration
 
-A custom domain name will be connected to the cloud server using DNS records.
+## Domain Name
 
-The domain will point to the server public IP address using an A record.
+The domain name used for this project is:
 
-* Server IP Address: 134.199.175.47
+```plaintext id="x3x9go"
+yasracyber.online
+```
 
-The DNS configuration will allow users to access the website through a domain name instead of directly using the server IP address.
+## DNS Setup
+
+DNS records were configured using Namecheap Advanced DNS settings.
+
+The following A records were added:
+
+| Type     | Host | Value          |
+| -------- | ---- | -------------- |
+| A Record | @    | 134.199.175.47 |
+| A Record | www  | 134.199.175.47 |
+
+These records connect the domain name to the cloud server public IP address.
+
+## Result
+
+The website can now be accessed using:
+
+```plaintext id="8ph4ql"
+https://yasracyber.online
+```
 
