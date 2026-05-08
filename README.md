@@ -9,3 +9,9 @@ This project is a cloud-hosted cybersecurity portfolio website deployed on an Ub
 - HTML
 - SSL/TLS
 - Bash scripting
+
+## Server Information
+
+- Cloud Provider: DigitalOcean
+- Operating System: Ubuntu Server
+- Web Server: Apache2
