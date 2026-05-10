@@ -12,5 +12,13 @@ A cloud virtual machine was created using DigitalOcean.
 
 The server was accessed remotely using SSH.
 
+## Apache Web Server Installation
+
+Apache2 was installed on the Ubuntu server using the following command:
+
+sudo apt install apache2 -y
+
+After installation, the Apache service was tested using the server public IP address.
+
 
 
