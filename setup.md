@@ -34,5 +34,20 @@ The website files were stored in the Apache web directory.
 
 <img width="1564" height="948" alt="Screenshot 2026-05-15 195025" src="https://github.com/user-attachments/assets/f56ee90e-ce38-438c-a406-43a5323a5c56" />
 
+## SSL/TLS Configuration
+
+An SSL certificate was configured on the Apache web server using Certbot.
+
+The following tools were installed:
+
+- certbot
+- python3-certbot-apache
+
+HTTPS redirection was enabled to improve website security.
+
+After configuration, the website became accessible using HTTPS.
+
+<img width="706" height="393" alt="Screenshot 2026-05-18 211042" src="https://github.com/user-attachments/assets/81dcbdf3-3d90-4837-b319-3c22d197420f" />
+
 
 
